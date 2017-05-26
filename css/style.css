@@ -1,5 +1,5 @@
 body{
-	background-color: #f7f7f7;
+	
 }
 
 .fullscreen {
@@ -37,20 +37,22 @@ h1{
 .appPlay{
 	width: 70%
 }
+.video{
+	padding: 50px;
+}
+.features{
+	background-color: black;
+}
+.features h2{
+	color: white;
+}
 
 .features .thumbnail{
 	border: none;
 	padding: 40px;
+	border-radius: 0px;
 }
 .features img{
 	width: 80%;
 }
 
-@media (max-width:767px){
-	.hidden-xs{
-		display: none !important
-	}
-	.button-download{
-
-	}
-}
