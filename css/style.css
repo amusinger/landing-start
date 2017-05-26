@@ -1,15 +1,20 @@
 body{
 	background-color: #f7f7f7;
 }
-header{
-	height: 100%;
-	background: -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
-	color: white;
+
+.fullscreen {
+	height:100vh;
+  	background: -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
+	color: white;  
 }
+
 h1{
 	font-size: 3em;
 }
 .intro{
+	padding: 5%;
+}
+.intro_text{
 	margin-top: 30%;
 	padding: 50px;
 }
@@ -21,8 +26,12 @@ h1{
 }
 .header-img{
 	max-width: 500px;
+	max-height: 600px;
 	margin: 0 auto;
 
+}
+.header-img img{
+	max-height: 700px;
 }
 
 .appPlay{
