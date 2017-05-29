@@ -1,0 +1,76 @@
+body{
+	
+}
+
+#fullscreen {
+
+		background: -webkit-radial-gradient(left top,circle cover,rgb(12,180,206),rgb(6,116,236) 100%);
+		background-size: cover;
+  height: 100%;
+	color: white;  
+	display: flex;
+padding: 50px;
+	    align-items: center
+}
+
+h1{
+<<<<<<< HEAD
+	font-size: 3em;
+	padding: 10px;
+	line-height: 1em;
+=======
+	font-size: 2.5em;
+>>>>>>> 41568159436ae8256fd0e147e87dc84a935af3dd
+}
+
+#fullscreen .container .row{
+	padding: 5%;
+}
+.intro_text{
+	text-align: center;
+	padding: 30px;
+
+}
+.line-blue{
+	border-color: #0cb4ce;
+    border-style: solid;
+    border-top-width: 2px;
+    width: 90px;
+}
+
+.header-img img{
+	float: right;
+	max-height: 450px;
+}
+
+.appPlay{
+	width: 70%
+}
+#video_block{
+	padding: 50px;
+}
+#features{
+	background-color: black;
+	padding: 50px;
+}
+#features h2{
+	color: white;
+}
+
+#features .thumbnail{
+	border: none;
+	padding: 30px;
+	border-radius: 0px;
+	height: 480px;
+}
+#features img{
+
+	height: 45%;
+}
+
+
+@media (max-width: 767px) {
+  #fullcreen .hidden-xs {
+    display: none !important;
+  }
+}
