@@ -10,6 +10,8 @@ body{
 
 h1{
 	font-size: 3em;
+	padding: 10px;
+	line-height: 1em;
 }
 .intro{
 	padding: 5%;
